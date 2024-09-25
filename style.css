@@ -1,0 +1,84 @@
+#registration-form{
+  height: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons
+{display:flex;
+justify-content: space-around;
+}
+
+body {
+  text-align: center;
+    font-family: Roboto, sans-serif;
+    background-color: #f9f8fd;
+    margin: 0;
+    padding: 50px;
+  }
+  
+  form {
+    text-align: center;
+    font-weight:600;
+    line-height: 110%;
+    background-color: #dbdfdd;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(190, 190, 190);
+    color: black;
+    padding: 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 25%;
+  }
+
+  input[type="submit"]:hover {
+    background-color: rgb(205, 201, 201);
+  }
+
+  input[type="reset"] {
+    background-color: rgb(190, 190, 190);
+    color: black;
+    padding: 20px;
+    border: none;
+    border-radius: 25px;
+    cursor:pointer;
+    width: 25%;
+  }
+
+input[type="reset"]:hover {
+  background-color: rgb(205, 201, 201);
+}
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  footer {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: small;
+    background-color: #f9f8fd;
+    margin: 0;
+    padding: 50px;
+  }
+
